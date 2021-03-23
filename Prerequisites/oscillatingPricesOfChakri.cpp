@@ -18,7 +18,7 @@ Sample Input 0:
 62 63 70 66 64 68 61
 Sample Output 0:
 8 */
-
+// can be better
 #include <iostream>
 #include <climits>
 using namespace std;
@@ -32,22 +32,14 @@ int main()
     {
         cin >> a[i];
     }
-    int min = 99999;
-    int profit = 0;
-    for (int i = 0; i < n; i++)
+    int m = -1;
+    for (int i = n - 1; i >= 0; i--)
     {
-        if (a[i] <= min)
+        for (int j = 0; j <= i; j++)
         {
-            min = a[i];
-        }
-        else
-        {
-            int p = a[i] - min;
-            if (p > profit)
-            {
-                profit = p;
-            }
+            m = max(m, (a[i] - a[j]));
         }
     }
+    cout << m;
     return 0;
 }
