@@ -88,6 +88,7 @@ I am myself not very good at competitive programming. If you choose to see any o
 * [ ] **longest consecutive sequence** in lecture language tools + time and complexity assignment
 * [ ] **aggressive cows problem** in searching and sorting applications. - i did it myself and is a very good problem.
 * [ ] **aggressive cows and inversion count problems** are searching ans sorting applications respectively. these are very important.
+* [ ] **taj mahal entry** can't do it
 * [ ] **searching and sorting applications lecture** is very very important.
 * [ ] **last question** of advanced recursion.
 * [ ] **alpha code question** in dynamic programming-1.
